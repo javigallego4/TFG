@@ -1,0 +1,48 @@
+wandb_version: 1
+
+amsgrad:
+  value: false
+backbone:
+  value: efficientnet_b0
+batch_size:
+  value: 8
+box_bg_iou_thresh:
+  value: 0.22683702355423543
+box_fg_iou_thresh:
+  value: 0.6517803072724866
+box_score_thresh:
+  value: 0.4425244523906912
+dataset_split:
+  value:
+  - 0.8
+  - 0.2
+dimensionality_reduction:
+  value: Vegetation Indexes
+epochs:
+  value: 100
+freezing:
+  value: 0.25
+image_size:
+  value:
+  - 99
+  - 80
+lr:
+  value: 0.00430295725604836
+mAP_type:
+  value: bbox
+optimizer:
+  value: RMSprop
+pansharpening:
+  value: Simple Mean
+rpn_bg_iou_thresh:
+  value: 0.3915321498402477
+rpn_fg_iou_thresh:
+  value: 0.607170921550858
+rpn_score_thresh:
+  value: 0.4999524065710236
+scheduler:
+  value: ReduceLROnPlateau
+threshold:
+  value: 0.005
+weight_decay:
+  value: 0.6878156174846738

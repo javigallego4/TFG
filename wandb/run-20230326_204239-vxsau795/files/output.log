@@ -1,0 +1,4 @@
+Preprocessing done
+Dataset created
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/efficientnet_b4_ra2_320-7eb33cd5.pth" to /Users/javigallego/.cache/torch/hub/checkpoints/efficientnet_b4_ra2_320-7eb33cd5.pth
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.

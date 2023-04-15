@@ -1,0 +1,36 @@
+wandb_version: 1
+
+amsgrad:
+  value: false
+backbone:
+  value: efficientnet_b2
+batch_size:
+  value: 8
+dataset_split:
+  value:
+  - 0.8
+  - 0.2
+dimensionality_reduction:
+  value: Vegetation Indexes
+epochs:
+  value: 60
+freezing:
+  value: 0.5
+image_size:
+  value:
+  - 99
+  - 80
+lr:
+  value: 0.008291723025074957
+mAP_type:
+  value: bbox
+optimizer:
+  value: AdamW
+pansharpening:
+  value: Simple Mean
+scheduler:
+  value: ReduceLROnPlateau
+threshold:
+  value: 0.005
+weight_decay:
+  value: 0.08400561865883115

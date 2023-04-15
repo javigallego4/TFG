@@ -1,0 +1,27 @@
+2023-03-26 20:26:43,395 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Configure stats pid to 5847
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Loading settings from /Users/javigallego/.config/wandb/settings
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Loading settings from /Users/javigallego/Desktop/UGR/TFG/Código/wandb/settings
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'root_dir': '/Users/javigallego/Desktop/UGR/TFG/Código', 'sweep_id': '9xmf1rlp', 'entity': 'javigallego4', 'project': 'Bachelor Thesis', 'run_id': 'tzk76qka', 'sweep_param_path': '/Users/javigallego/Desktop/UGR/TFG/Código/wandb/sweep-9xmf1rlp/config-tzk76qka.yaml'}
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Vegetation Indexes + Simple Mean.py', 'program': '/Users/javigallego/Desktop/UGR/TFG/Código/Vegetation Indexes + Simple Mean.py'}
+2023-03-26 20:26:43,396 INFO    Thread-4 (_run_job):5847 [wandb_init.py:_log_setup():506] Logging user logs to /Users/javigallego/Desktop/UGR/TFG/Código/wandb/run-20230326_202643-tzk76qka/logs/debug.log
+2023-03-26 20:26:43,397 INFO    Thread-4 (_run_job):5847 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/javigallego/Desktop/UGR/TFG/Código/wandb/run-20230326_202643-tzk76qka/logs/debug-internal.log
+2023-03-26 20:26:43,397 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():546] calling init triggers
+2023-03-26 20:26:43,397 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():552] wandb.init called with sweep_config: {'amsgrad': True, 'backbone': 'efficientnet_b2', 'batch_size': 8, 'dataset_split': [0.8, 0.2], 'dimensionality_reduction': 'Vegetation Indexes', 'epochs': 60, 'freezing': 0.75, 'image_size': [99, 80], 'lr': 0.005767857021494266, 'mAP_type': 'bbox', 'optimizer': 'AdamW', 'pansharpening': 'Simple Mean', 'scheduler': 'ReduceLROnPlateau', 'threshold': 0.005, 'weight_decay': 0.07753845830214619}
+config: {}
+2023-03-26 20:26:43,397 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():602] starting backend
+2023-03-26 20:26:43,397 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():606] setting up manager
+2023-03-26 20:26:43,405 INFO    Thread-4 (_run_job):5847 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-26 20:26:43,412 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():613] backend started and connected
+2023-03-26 20:26:43,417 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_config_callback():1251] config_cb None None {'amsgrad': True, 'backbone': 'efficientnet_b2', 'batch_size': 8, 'dataset_split': [0.8, 0.2], 'dimensionality_reduction': 'Vegetation Indexes', 'epochs': 60, 'freezing': 0.75, 'image_size': [99, 80], 'lr': 0.005767857021494266, 'mAP_type': 'bbox', 'optimizer': 'AdamW', 'pansharpening': 'Simple Mean', 'scheduler': 'ReduceLROnPlateau', 'threshold': 0.005, 'weight_decay': 0.07753845830214619}
+2023-03-26 20:26:43,421 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():701] updated telemetry
+2023-03-26 20:26:43,422 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-26 20:26:44,187 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-26 20:26:44,511 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_on_init():2142] got version response 
+2023-03-26 20:26:44,512 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():789] starting run threads in backend
+2023-03-26 20:26:44,567 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-26 20:26:44,568 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-26 20:26:44,568 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-26 20:26:44,568 INFO    Thread-4 (_run_job):5847 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-26 20:26:44,568 INFO    Thread-4 (_run_job):5847 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-26 20:32:37,464 WARNING MsgRouterThr:5847 [router.py:message_loop():77] message_loop has been closed
