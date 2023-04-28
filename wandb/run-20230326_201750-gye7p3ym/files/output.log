@@ -1,5 +1,0 @@
-Preprocessing done
-Dataset created
-Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/efficientnet_b2_ra-bcdf34b7.pth" to /Users/javigallego/.cache/torch/hub/checkpoints/efficientnet_b2_ra-bcdf34b7.pth
-Model created
-  0%|                                                                                                                                                                                                                                        | 0/548 [00:00<?, ?it/s]
